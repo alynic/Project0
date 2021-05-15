@@ -181,3 +181,79 @@ public class Converter {
 	}
 
 }//end class
+
+
+
+/**
+ * vvvvvvvvvvvvvvv BASIC PROJECT WITH MINIMUM REQUIREMENTS BELOW vvvvvvvvvvvvvvv
+ */
+
+
+/**
+ * Alyssa Andrade
+ * Project 0
+ * May 13, 2021
+ * 
+ * Create a Unit Converter utilizing the minimum:
+ * 		while loop
+ * 		Scanner
+ * 		switch
+ * 
+ **/
+
+/*
+package main;
+
+import java.util.Scanner;
+
+public class Converter {
+	
+	public static void main(String[] args) {
+		int menuSelection = 0;		// user input 1-4
+		double userInput = 0;		// user quantity for input number
+		double result = 0;			// user result for quantity
+		Scanner scanner = new Scanner(System.in);	
+		
+		while(menuSelection != 4) {		// runs while user selects 1-3; stops when 4 is entered
+			
+			//Print menu
+			System.out.println("Please select an option:");
+			System.out.println("1. Cups to Teaspoons");
+			System.out.println("2. Miles to Kilometers");
+			System.out.println("3. US Gallons to Imperial Gallons");
+			System.out.println("4. Quit");
+			System.out.print("Your option: ");
+			menuSelection = scanner.nextInt();		// Get user input
+			
+			// runs depending on what choice user made
+			switch(menuSelection) {
+				case 1:
+					System.out.print("Please enter initial amount of cups: ");
+					userInput = scanner.nextInt();
+					result = userInput * 48;
+					System.out.println("\n" + userInput + " Cup(s) is approximately " + result + "Teaspoon(s)\n");
+					break;
+				case 2:
+					System.out.print("Please enter initial amount of Miles: ");
+					userInput = scanner.nextInt();
+					result = userInput * 1.60934;
+					System.out.println("\n" + userInput + " Mile(s) is approximately " + result + " Kilometer(s)\n");
+					break;
+				case 3:
+					System.out.print("Please enter initial amount of US Gallons: ");
+					userInput = scanner.nextInt();
+					result = userInput / .832674;
+					System.out.println("\n" + userInput + " US Gallon(s) is approximately " + result + " Imperial Gallon(s)\n");
+					break;
+				default:		// handles only numbers
+					System.out.println("\n!!!!!Please enter a number between 1-4!!!!!\n");
+			}
+			
+		}//end while
+		
+		scanner.close();
+	}//end main
+
+}//end class
+
+*/
